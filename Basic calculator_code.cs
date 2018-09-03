@@ -222,7 +222,7 @@ public static double multiply(double multiplicand, double multiplier)
             for (int i = 0; i < 3; i++)
             {
                 count = 0;
-                num = num * 10;
+                num = multiply(num,10);
                 while (num >= divisor)
                 {
                     num = num - divisor; //This iteration is for getting the whole number here
